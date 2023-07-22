@@ -14,7 +14,11 @@ function App() {
       <main>
         <Dictionary/>
       </main>
-      <footer className="App-footer">Coded by Pri Scarabelli</footer>
+      <footer className="App-footer">Coded by Pri Scarabelli
+      <div className='github-link'>
+      <a href="https://github.com/priscarabelli/dictionary-app">Github repository</a>
+      </div>
+      </footer>
       </div>
     </div>
   );
