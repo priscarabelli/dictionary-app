@@ -1,6 +1,20 @@
+.Dictionary{
+    background-color: rgb(2, 87, 35);
+    border-radius: 10px;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+
 input{
+    width: 50%;
     border-radius: 6px;
-    margin: 20px;
-   
- 
+    border: 1px solid darkgreen;
+    margin:  10px;
+    padding: 16px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-box{
+    text-align: center;
 }
