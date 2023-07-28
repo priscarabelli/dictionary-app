@@ -1,15 +1,14 @@
 
 import './App.css';
 import Dictionary from "./Dictionary"; 
+import Header from "./Header"; 
 
 function App() {
   return (
     <div className="App">
       <div className='container'>
       <header className="App-header">
-      <h1 className="heading-1">
-        Dictionary by Pri
-      </h1>
+     <Header/>
       </header>
       <main>
         <Dictionary/>

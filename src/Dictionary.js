@@ -24,11 +24,15 @@ function handlekeywordChange(event){
 }
 
     return( <div className="Dictionary">
+    <section>
     <form onSubmit={search}>
         <div className="input-box">
         <input type="search" onChange={handlekeywordChange} placeholder="Enter a word"/>
     </div>
     </form>
+     </section>
     <Results results={results}/>
-    </div> ); 
+    </div> 
+   
+    ); 
 }
