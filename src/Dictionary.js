@@ -11,7 +11,7 @@ function handleResponse(response){
    setResults(response.data); 
 }
 
-
+// Documentation (SheCodes) API:  https://www.shecodes.io/learn/apis/dictionary
 function search(event){
 event.preventDefault();
 let apiKey = "eab04436t3405o6e84aadcd05339dfb6";
